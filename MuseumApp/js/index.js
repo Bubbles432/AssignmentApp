@@ -43,11 +43,13 @@ function initMap() {
 		
 		var marker = new google.maps.Marker({
 			position: myLatLng,
+			label: "The Infirmary",
 			map: map,
 		});
 		
 			var marker = new google.maps.Marker({
 			position: myLatLngSecond,
+			label: "The Tudor House",
 			map: map,
 		});
       }
